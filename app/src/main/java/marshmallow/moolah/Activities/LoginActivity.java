@@ -24,7 +24,7 @@ public class LoginActivity extends MoolahActivity {
                 // Log in and start the main activity
                 EditText username = findViewById(R.id.usernameField);
                 MoolahActivity.setUsername(username.getText().toString());
-                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ProgressActivity.class);
                 startActivity(intent);
             }
         });
